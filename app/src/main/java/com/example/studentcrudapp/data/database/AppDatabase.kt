@@ -1,11 +1,4 @@
-package com.example.studentcrudapp.data.database
 
-import android.content.Context
-import androidx.room.Database
-import androidx.room.Room
-import androidx.room.RoomDatabase
-import com.example.studentcrudapp.data.entity.Student
-import com.example.studentcrudapp.data.dao.StudentDao
 
 @Database(
     entities = [Student::class],
