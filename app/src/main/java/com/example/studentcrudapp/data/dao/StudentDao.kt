@@ -1,7 +1,7 @@
 package com.example.studentcrudapp.data.dao
 
-import androidx.room.*
-import kotlinx.coroutines.flow.Flow
+import androidx.room.* //Insert all queries
+import kotlinx.coroutines.flow.Flow //Fo handling Real time updates of the UI
 import com.example.studentcrudapp.data.entity.Student
 
 @Dao
