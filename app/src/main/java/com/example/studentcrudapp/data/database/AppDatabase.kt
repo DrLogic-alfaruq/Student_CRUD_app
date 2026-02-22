@@ -13,8 +13,8 @@ import com.example.studentcrudapp.data.dao.StudentDao
     exportSchema = false
 )
 
-abstract class AppDatabase : RoomDatabase() {
-    abstract fun studentDao(): StudentDao
+abstract class AppDatabase : RoomDatabase() { // Create An Instance
+    abstract fun studentDao(): StudentDao //Getting the Dao file
 
     companion object {
         @Volatile
